@@ -5,6 +5,8 @@ import (
 )
 
 //here is our pointers func which contains our  examples of Pointers used in go
+// pointers are helpful if you have a large piece of data and you don't want to pass that large piece of data around
+// your program. Instead we can just pass an Address where that data is stored.
 func pointers() {
 	fmt.Println("Pointers Print START:")
 	// using a declaration assignment to assign the VALUE of 542 to x
