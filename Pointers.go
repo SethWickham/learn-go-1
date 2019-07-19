@@ -13,7 +13,7 @@ func pointers() {
 	// using a declaration assignment to assign the VALUE of 542 to x
 	// therefore x is of TYPE int
 	x := 542
-	fmt.Println("Value of x:", x, "Address of x:", x)
+	fmt.Println("Value of x:", x, "Address of x:", &x)
 
 	// here we creating a Variable and assigning its value to the ADDRESS of x using the & operator
 	// the & shows us where the ADDRESS is of the Value that was stored in the computer's memory.
@@ -28,6 +28,10 @@ func pointers() {
 	fmt.Println("Pointers Print END")
 
 	// here we are changing the Value that is referenced to in our pointer and then printing that Value
+	// our Address doesn't change because its like a hotel room
+	// the people may come and go (Value) but the location of the room (Address) stays the same.
+	// and in go you don't ever change your hotel for people into a hotel for dogs :)  (Static Programming)
 	*b = 245
 	fmt.Println("new Value of x:", x)
+	fmt.Println("NOTE our Address is the same:", &x)
 }
