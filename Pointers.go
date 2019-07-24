@@ -25,7 +25,6 @@ func pointers() {
 
 	// then we are able to locate (“dereference”) our Value from our ADDRESS by using the * operator
 	fmt.Println("Print Value stored at ADDRESS:", *b)
-	fmt.Println("Pointers Print END")
 
 	// here we are changing the Value that is referenced to in our pointer and then printing that Value
 	// our Address doesn't change because its like a hotel room
@@ -34,4 +33,5 @@ func pointers() {
 	*b = 245
 	fmt.Println("new Value of x:", x)
 	fmt.Println("NOTE our Address is the same:", &x)
+	fmt.Println("Pointers Print END")
 }
