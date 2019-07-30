@@ -9,4 +9,5 @@ func main() {
 
 	pointers()
 	structs1()
+	marshal1()
 }

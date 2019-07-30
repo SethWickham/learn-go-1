@@ -22,6 +22,8 @@ type dangerousZooAnimals struct {
 
 func structs1() {
 
+	//then we are creating our composite literal and filling in our Values
+	// from our predefined fields above.
 	ZooNorCal := dangerousZooAnimals{
 		zooAnimalNames: zooAnimalNames{
 			elephantName: "Sammy",
