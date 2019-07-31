@@ -15,7 +15,7 @@ type greetings struct {
 	Howdy string
 }
 
-func marshal1() {
+func marshal() {
 	fmt.Println("marshal1 Print START")
 
 	//composite literal

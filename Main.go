@@ -9,5 +9,6 @@ func main() {
 
 	pointers()
 	structs1()
-	marshal1()
+	marshal()
+	unmarshal()
 }
