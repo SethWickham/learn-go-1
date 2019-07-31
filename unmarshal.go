@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-// see json to go website as a tool that transforms json into go code
+//I used the json to go website in order to create this struct
 type jsonGreetings struct {
 	Hello string `json:"Hello"`
 	Hi    string `json:"Hi"`
@@ -17,7 +17,7 @@ func unmarshal() {
 
 	jsonString := `[{"Hello":"english","Hi":"shortened version","Howdy":"accent version"}]`
 	bs := []byte(jsonString)
-	fmt.Printf("%T\n", jsonString)
+
 	fmt.Printf("%T\n", bs)
 
 	var greetings []jsonGreetings
