@@ -5,6 +5,9 @@ import (
 )
 
 //Here we are creating two structs in go
+// a struct is basically a data structure that predefines our values
+// this is a really great feature in go which helps us to build  our code
+// while maintaining clarity
 type zooAnimalNames struct {
 	elephantName string
 	toucanName   string
