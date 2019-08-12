@@ -37,7 +37,7 @@ func sortCustom() {
 	fmt.Println("unordered trucks:", trucks)
 
 	// then we are using conversion to convert trucks to TYPE ByTruckID
-	//therefore any values from trucks now has access to our ByTruckID methods.
+	//so that any values from trucks now has access to our ByTruckID methods.
 	sort.Sort(ByTruckID(trucks))
 	fmt.Println("ordered trucks:", trucks)
 	fmt.Println("sortAdvanced print END")
