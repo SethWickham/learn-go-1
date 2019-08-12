@@ -6,7 +6,7 @@ import (
 )
 
 func sorting() {
-	fmt.Println("sortBasic print START")
+	fmt.Println("sorting print START")
 	//this is our slice of int
 	numbers := []int{100, 7, 4, 10}
 	fmt.Println("unsorted numbers:", numbers)
@@ -26,5 +26,5 @@ func sorting() {
 
 	fmt.Println("sorted cast", cast)
 	fmt.Printf("cast TYPE: %T\n", cast)
-	fmt.Println("sortBasic print END")
+	fmt.Println("sorting print END")
 }

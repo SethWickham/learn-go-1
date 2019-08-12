@@ -25,7 +25,7 @@ func (id ByTruckID) Swap(i, j int)      { id[i], id[j] = id[j], id[i] }
 func (id ByTruckID) Less(i, j int) bool { return id[i].TruckID < id[j].TruckID }
 
 func sortCustom() {
-	fmt.Println("sortAdvanced print START")
+	fmt.Println("sortCustom print START")
 
 	trucks := []FireTruck{
 		{"Fred", 19756},
@@ -40,5 +40,5 @@ func sortCustom() {
 	//so that any values from trucks now has access to our ByTruckID methods.
 	sort.Sort(ByTruckID(trucks))
 	fmt.Println("ordered trucks:", trucks)
-	fmt.Println("sortAdvanced print END")
+	fmt.Println("sortCustom print END")
 }
