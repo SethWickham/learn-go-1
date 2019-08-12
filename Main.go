@@ -15,4 +15,6 @@ func main() {
 	structs1()
 	marshal()
 	unmarshal()
+	sorting()
+	sortCustom()
 }
