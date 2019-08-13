@@ -15,7 +15,7 @@ type FireTruck struct {
 // This file contains code that allows us to sort through data that has a custom type
 // which we have created
 
-// Here we are implementing the sort.Interface for the []FireTruck based on the TruckId field.
+// Here we are implementing the sort.Interface for the []FireTruck based on the TruckID field.
 
 // ByTruckID :  allows us to order the trucks by ID
 type ByTruckID []FireTruck
