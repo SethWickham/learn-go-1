@@ -41,5 +41,6 @@ func sortCustom() {
 	//so that any values from trucks now has access to our ByTruckID methods.
 	sort.Sort(ByTruckID(trucks))
 	fmt.Println("ordered trucks:", trucks)
+	//now our trucks will be organized from the ID with the lowest number to the highest number
 	fmt.Println("sortCustom print END")
 }
