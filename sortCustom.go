@@ -36,7 +36,8 @@ func sortCustom() {
 
 	fmt.Println("unordered trucks:", trucks)
 
-	// then we are using conversion to convert trucks to TYPE ByTruckID
+	// using the Sort method from our imported "sort" package will allow us call ByTruckID
+	// then we are using conversion (ByTruckID(trucks)) to convert trucks to TYPE ByTruckID
 	//so that any values from trucks now has access to our ByTruckID methods.
 	sort.Sort(ByTruckID(trucks))
 	fmt.Println("ordered trucks:", trucks)
