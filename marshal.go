@@ -24,7 +24,7 @@ func marshal() {
 		Hi:    "shortened version",
 		Howdy: "accent version",
 	}
-	// we calling bs because we get returned a byte slice.
+	// we name this bs because we get returned a byte slice.
 	bs, err := json.Marshal(h1)
 	if err != nil {
 		fmt.Println("error:", err)
